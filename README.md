@@ -6,6 +6,7 @@ With the new system, you can easily create your own new modifiers. I highly sugg
 
 # Credits
 Original creator of the mod: Hiccup251
+
 For maintaining Even More Modifiers: Jofairden
 
 
