@@ -9,17 +9,15 @@ Original creator of the mod: Hiccup251
 
 For maintaining Even More Modifiers: Jofairden
 
-
-
-# Jofairden's info
-
 Unfortunately hiccup has left the scene now almost a year ago, he kindly requested I kept the mod alive.
 
 Massive thanks to thegamemaster1234 for migrating a lot of already existing modifiers to the new system!
 
 Thanks chicken-bones for some great insights and help with designing the systems behind-the-scenes for this mod! It truly makes the mod work as well as it does, thanks!
 
-# Useful links
+Lulu - Thanks to my friends for pushing me to code again: ThePinkReaper and ShyneetMagician
+
+# Jofairden's info
 
 How to make your own content is described in <https://evenmoremodifiers.readthedocs.io/en/latest/>
 
@@ -29,7 +27,6 @@ Doxygen (always last released version): <https://zond.tech/emm/doxygen/index.htm
 
 Website and changelog: <https://zond.tech/emm/>
 
-# Download
 Download on browser: [http://javid.ddns.net/tModLoader/download.php?Down=mods/Loot.tmod](http://javid.ddns.net/tModLoader/download.php?Down=mods/Loot.tmod)
 
 Download on Github: [https://github.com/Jofairden/EvenMoreModifiers/releases](https://github.com/Jofairden/EvenMoreModifiers/releases)
