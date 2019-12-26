@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="..\..\references\tModLoader.targets" />
+  <PropertyGroup>
+    <AssemblyName>Loot</AssemblyName>
+    <TargetFramework>net45</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <Target Name="BuildMod" AfterTargets="Build">
+    <Exec Command="&quot;$(tMLBuildServerPath)&quot; -build $(ProjectDir) -eac $(TargetPath) -define $(DefineConstants) -unsafe $(AllowUnsafeBlocks)" />
+  </Target>
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.12.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="CalamityMod">
+      <HintPath>CalamityMod.FNA.dll</HintPath>
+    </Reference>
+    <Reference Include="CheatSheet">
+      <HintPath>..\backups\rework\references\CheatSheet.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="ThoriumMod">
+      <HintPath>ThoriumMod.FNA.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

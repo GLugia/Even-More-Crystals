@@ -1,0 +1,30 @@
+Adds crystals to the world that allow modifying armor, weapons, and accessories similar to Even More Modifiers.
+
+Huge credits to Jofairden for maintaining and updating Even More Modifiers.
+
+!! Incompatible with Even More Modifiers. !!
+
+Crystals:
+	Abysmic	 Removes 1 random modifier from an item.
+	Alchemic	 Adds 1 random modifier to an item.
+	Arctic	 Freezes 1 random modifier on an item.
+	Chaotic	 Rerolls all non-frozen modifiers on an item. Effects scale in hardmode, after Moon Lord, and after Devourer of Gods.
+	Eternic	 Creates an imprint item which can be used to revert an item's modifiers to when the imprint was created.
+	Magmatic	 Unfreezes 1 random frozen modifier on an item.
+	Oceanic	 Removes all modifiers from an item.
+	Relic	 Increases an item's maximum modifiers by 1.
+
+Changelog:
+	Added further boss scaling to Alchemic and Chaotic crystals
+	Nerfed previous boss scaling for said crystals
+
+	Fixed a crash related to using an Imprint with no modifiers
+	Fixed a bug where you could activate multiple crystals before applying the effects to an item
+	Fixed a bug where crystals did not transfer to mouse item properly when right clicked without holding control
+	Fixed a bug where you could "pick up" a crystal that wasn't the same as your mouse item crystal with right click
+	Fixed a bug with Imprints being deleted when picked up with right click
+	Fixed a bug with the saved hash on an imprint being deleted when you picked it up with left click
+
+Plans:
+	Sell values for crystals
+	Corrupted variants dropping from bosses

@@ -1,0 +1,11 @@
+author = Lulu
+version = 0.2.1.0
+displayName = Even More Crystals
+hideCode = false
+hideResources = false
+includeSource = true
+languageVersion = 6
+buildIgnore = *.csproj, *.user, .vs\*, .idea\*, *.git*, *.config, tmp.txt, packages\*, UnitTests.cs, TestResults\*, LootTests\*, docs\*, bin\*, obj\*, lib\*, travis\*
+includePDB = false
+weakReferences = CheatSheet, WingSlot
+modReferences = ThoriumMod, CalamityMod
